@@ -5,7 +5,7 @@
     <title>HTML Academy: {{Sedona}}</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="page-body">
     <header class="page-header">
       <nav class="header-navigation">
         <a class="logo">
@@ -32,13 +32,15 @@
             <span class="visually-hidden">Избранное</span>
             <span class="icon-button-counter">12</span>
           </a>
-          <a href="#" class="button">Хочу сюда!</a>
+          <a href="#" class="button button-secondary">Хочу сюда!</a>
         </div>
       </nav>
     </header>
 
     <main class="page-main">
-      <h1 class="visually-hidden">Туристический город Седона</h1>
+      <div class="main-promo">
+        <h1 class="visually-hidden">Туристический город Седона</h1>
+      </div>
 
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества Седоны</h2>
@@ -47,12 +49,12 @@
         <p class="section-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
 
         <ol class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-large">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantages-img" src="./images/content/real-city.jpg" width="800" height="384" alt="Фото города Седона с заведенями">
 
-            <ul class="advantages-list">
+            <ul class="advantages-list advantages-list-inner">
               <li class="advantages-item">
                 <h4 class="advantages-title">Жильё</h4>
                 <p class="advantages-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
@@ -68,7 +70,7 @@
             </ul>
           </li>
 
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-large">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="advantages-img" src="./images/content/devil-bridge.jpg" width="800" height="384" alt="Фото Моста дьявола: природного каменного моста между скалами">
@@ -97,10 +99,10 @@
         <p class="section-title">Заинтересовались?</p>
         <p class="section-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-        <a href="#" class="search-button button">Поиск гостинцы в Седоне</a>
+        <a href="#" class="search-button button button-secondary button-large">Поиск гостинцы в Седоне</a>
       </section>
 
-      <section class="subscribe">
+      <section class="subscribe subscribe-primary">
         <h2 class="section-title">Подпишитесь на рассылку</h2>
         <p class="section-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
@@ -109,13 +111,13 @@
             <span class="visually-hidden">Ваш e-mail</span>
             <input class="field-input" type="email" name="email" placeholder="Ваш e-mail">
           </label>
-          <button class="subscribe-button button" type="submit">Подписаться</button>
+          <button class="subscribe-button button button-large" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
 
     <footer class="page-footer">
-      <ul class="page-footer-social social">
+      <ul class="footer-social social">
         <li class="social-item">
           <a class="social-link" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">Twitter</span>
