@@ -1,7 +1,11 @@
 # Личный проект «Sedona»
 
-* Студент: [Макеева Анастасия]({https://github.com/Nastya880/)
+* Студент: [Макеева Анастасия](https://github.com/Nastya880/)
 * Наставник: ``.
+
+---
+
+Валиден по [w3c.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnastya880.github.io%2FSedona%2F)
 
 ---
 
