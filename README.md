@@ -1,4 +1,4 @@
-# Личный проект «Sedona»
+# Личный проект «[Sedona](https://www.figma.com/file/IKjituVEYB9gcsut9iAbhj/HTML-1-%2F-%D0%A1%D0%B5%D0%B4%D0%BE%D0%BD%D0%B0-%2F-33-(Copy)?type=design&node-id=0%3A1&mode=design&t=1zTfNV3Lfg4oE85K-1)»
 
 * Студент: [Макеева Анастасия](https://github.com/Nastya880/)
 * Наставник: ``.
